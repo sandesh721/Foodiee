@@ -1,0 +1,16 @@
+.navbar {
+    /* background-color: #fff; */
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+  }
+  
+  .navbar img {
+    text-align: center;
+    width: 70px;
+    border-radius: 50%;
+  }
+  

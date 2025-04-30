@@ -1,0 +1,113 @@
+.dashboardWrapper {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .adminDashboard {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .adminDashboardContent {
+    width: 100%;
+  }
+  
+  .request {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-content {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  /* Table container */
+.pendingTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header */
+  .pendingTable thead {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .pendingTable th {
+    padding: 12px 20px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Table body */
+  .pendingTable td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Hover effect for rows */
+  .pendingTr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Alternate row colors */
+  .pendingTr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  /* Button styling in the actions column */
+  .pendingTable button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pendingTable button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button style for reject */
+  .pendingTable button:nth-child(2) {
+    background-color: #f44336;
+  }
+  
+  .pendingTable button:nth-child(2):hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive table for smaller screens */
+  @media screen and (max-width: 768px) {
+    .pendingTable th, .pendingTable td {
+      padding: 8px 12px;
+    }
+  
+    .pendingTable {
+      font-size: 14px;
+    }
+  }
+  

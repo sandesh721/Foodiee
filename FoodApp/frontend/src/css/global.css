@@ -1,0 +1,44 @@
+/* #68d388 - green
+#ff1e00 - orange
+
+Dimly Blue: #e8f9fd
+Purple baseline: #161748
+Bluewater lowlight: #39a0ca
+Dark Slate: #1d1e22 */
+
+
+:root {
+    --primary-color: #ff1e00;
+    --secondary-color: #68d388;
+    --background-color: #e8f9fd;
+    --box-color:#a5e8f7;
+    --text-color: #1d1e22;
+    --danger-color: #e53935;
+    --accent-color: #03a9f4;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    /* background-color: var(--background-color); */
+    color: var(--text-color);
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  
